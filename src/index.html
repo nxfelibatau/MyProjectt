@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="../tailwind.config.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-[#F4E7FB] ">
+
+<!-- header -->
+
+    <header class="shadow-lg text-black fixed w-full bg-[#C4D4D4]">
+      <nav x-data="{open:false}":class="open?'h-16':'h-screen'" class="container w-full flex items-center md:h-16 md:justify-end gap-4 mx-auto">
+
+        <!-- left of header -->
+
+        <ul class="flex fixed gap-4 left-0 md:left-11">
+            <li><a href=""></a>عضویت</li>
+            <li><a href=""></a><i class='bx text-lg bxs-shopping-bag'></i></li>
+            <li><a href=""></a><i class='bx text-lg bxs-search'></i></li>
+        </ul>
+
+        <!-- left of header -->
+
+        <!-- logo -->
+
+        <div class="flex fixed left-72 md:right-11">
+        <img src="../img/elf-logo-zip-file (2)/png/logo-no-background.png" alt="logo" class="w-20 fixed top-1">
+        </div>
+
+        <!-- logo -->
+
+    <!-- right of header & hamburger menu-->
+
+        <ul class="flex flex-col md:flex-row md:flex gap-4 items-center mx-auto" x-show="open=true":class="open?'hidden':''">
+            <li><a  class="text-lg" href="">خانه</a></li>
+            <li><a  class="text-lg" href="">فروشگاه</a></li>
+            <li><a  class="text-lg" href="">تماس با ما</a></li>
+            <li><a  class="text-lg"  href="">درباره ما</a></li>
+        </ul>
+
+        <!-- hamburger menu's button -->
+
+        <button @click="open=!open":class="open?'':'hidden'">
+            <svg class="w-6 h-6 md:hidden fixed top-5 right-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+        <button @click="open=true":class="open?'hidden':''">
+            <svg class="w-6 h-6 md:hidden fixed top-5 right-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+
+        <!-- hamburger menu's button -->
+
+
+    <!-- right of header & hamburger menu-->
+
+      </nav>
+    </header>
+
+<!-- header -->
+
+<!-- main -->
+
+    <main class="">
+
+        <!-- first page -->
+
+        <section class="flex mx-auto bg-image">
+            <div class="flex flex-wrap w-full justify-between">
+                <div class="flex flex-col w-full items-start my-40 gap-3 mx-16">
+                    <span class="text-4xl py-3 text-black">خاص ترین ها رو تجربه کن</span>
+                    <div class="flex gap-2">
+                    <a class="text-l bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white" href="">محصول خودت رو بساز!</a>
+                    <a class="text-l bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white" href="">کتاب ها</a>
+                    <a class="text-l bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white" href="">لوازم تحریر</a>
+                    <a class="text-l bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white" href="">گیاه</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- first page -->
+
+        <!-- stationary section -->
+
+        <section class=" bg-[#C4D4D4]">
+            <div class="flex items-center justify-between shadow-sm">
+                <span class="text-lg mt-3 mr-8">لوازم تحریر</span>
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/f519918e-2f33-40ad-a3b8-5307f750aa34/F9vA6EwKsY.json" background="transparent" speed="1" style="width: 100px; height: 50px;" loop autoplay></dotlottie-player>
+            </div>
+            <div class="container mx-auto w-full bg-[#F4E7FB] rounded-lg">
+
+                <!-- cards -->
+
+                <div class="flex flex-wrap mt-5 gap-14 justify-center py-5">
+
+                    <!-- first card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/stationary/bj.jpg" class="w-64 rounded-xl hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl"> بولت ژورنال </a>
+                            <a href="#" class="">220,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- first card -->
+
+                    <!-- second card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/stationary/pens.jpg" class="w-64 h-44 mt-2 rounded-xl hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl">خودکار  </a>
+                            <a href="#" class="">100,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- second card -->
+
+                    <!-- third card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/stationary/washitape.jpg" class="w-64 h-44 rounded-xl hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl">چسب واشی </a>
+                            <a href="#" class="">30,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- third card -->
+
+                    <!-- forth card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/stationary/pcc.jpg" class="w-60 h-44 rounded-xl hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl">   جامدادی </a>
+                            <a href="#" class="">80,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- forth card -->
+
+                <!-- cards -->
+                </div>
+
+                <!-- more -->
+
+                <div class="flex justify-center">
+                <a class="w-[75%] flex justify-center shadow-lg mt-3 mb-3 hover:text-xl rounded-xl bg-white text-lg" href="#">بیشتر <i class='bx mt-2 text-sm bxs-down-arrow'></i></a>
+                </div>
+
+                <!-- more -->
+
+            </div>
+        </section>
+
+        <!-- stationary section -->
+
+        <!-- books section -->
+
+        <section class=" bg-[#C4D4D4]">
+            <div class="flex items-center justify-between shadow-sm">
+                <span class="text-lg mt-3 mr-8"> کتاب ها</span>
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/f519918e-2f33-40ad-a3b8-5307f750aa34/F9vA6EwKsY.json" background="transparent" speed="1" style="width: 100px; height: 50px;" loop autoplay></dotlottie-player>
+            </div>
+            <div class="container mx-auto w-full bg-[#F4E7FB] rounded-lg">
+
+                <!-- cards -->
+
+                <div class="flex flex-wrap mt-5 gap-14 justify-center py-5">
+
+                    <!-- first card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/books/good-guide.jpg" class="w-64 h-52 rounded-lg hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl"> راهنمای خوب</a>
+                            <a href="#" class="">120,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- first card -->
+
+                    <!-- second card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/books/how-to-not-always-be-working.jpg" class="w-64 h-52 mt-2 rounded-lg hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl">   راز کار  </a>
+                            <a href="#" class="">150,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- second card -->
+
+                    <!-- third card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/books/i-am-hero-of-my-own-life.jpg" class="w-64 h-52 hover:w-72 mt-1 rounded-lg" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-mine ">   قهرمان زندگیت باش </a>
+                            <a href="#" class="">200,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- third card -->
+
+                    <!-- forth card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/books/the-power-of-habit.jpg" class="w-60 rounded-lg hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-mine">   قدرت عادت های خوب </a>
+                            <a href="#" class="">240,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- forth card -->
+
+                <!-- cards -->
+                </div>
+
+                <!-- more -->
+
+                <div class="flex justify-center">
+                <a class="w-[75%] flex justify-center shadow-lg mt-3 mb-3 hover:text-xl rounded-xl bg-white text-lg" href="#">بیشتر <i class='bx mt-2 text-sm bxs-down-arrow'></i></a>
+                </div>
+
+                <!-- more -->
+
+            </div>
+        </section>
+
+        <!-- books section -->
+
+        <!-- plants section -->
+
+        <section class=" bg-[#C4D4D4]">
+            <div class="flex items-center justify-between shadow-sm">
+                <span class="text-lg mt-3 mr-8">  گیاه ها</span>
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/f519918e-2f33-40ad-a3b8-5307f750aa34/F9vA6EwKsY.json" background="transparent" speed="1" style="width: 100px; height: 50px;" loop autoplay></dotlottie-player>
+            </div>
+            <div class="container mx-auto w-full bg-[#F4E7FB] rounded-lg">
+
+                <!-- cards -->
+
+                <div class="flex flex-wrap mt-5 gap-14 justify-center py-5">
+
+                    <!-- first card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/plants/aloevera.jpg" class="w-64 h-52 rounded-lg hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl"> آلوورا</a>
+                            <a href="#" class="">120,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- first card -->
+
+                    <!-- second card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/plants/anjiri.jpg" class="w-64 h-52 mt-2 rounded-lg hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl"> برگ انجیری </a>
+                            <a href="#" class="">88,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- second card -->
+
+                    <!-- third card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/plants/azoonaazoona.jpg" class="w-64 h-52 rounded-lg hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl">   مارانتا </a>
+                            <a href="#" class="">200,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- third card -->
+
+                    <!-- forth card -->
+
+                    <div class="w-7/12 md:w-5/12 lg:w-2/12 bg-white rounded-2xl py-2 px-4 shadow-2xl">
+                        <div class="flex flex-col items-center">
+                            <a href="#"><img src="../img/plants/cute.jpg" class="w-60 h-52 rounded-lg hover:w-72" alt=""></a>
+                        </div>
+                        <div class="flex flex-col mt-4 justify-center items-center gap-2">
+                            <a href="#" class="text-2xl">   زبرینا </a>
+                            <a href="#" class="">380,000</a>
+                            <a class="flex flex-col text-l bg-[#335334] hover:bg-[#718355] items-center py-1 px-2 rounded-md text-white" href="#"><span class="icon-park-outline--shopping"></span></a>
+                        </div>
+                    </div>
+
+                    <!-- forth card -->
+
+                <!-- cards -->
+                </div>
+
+                <!-- more -->
+
+                <div class="flex justify-center">
+                    <a class="w-[75%] flex justify-center shadow-lg mt-3 mb-3 hover:text-xl rounded-xl bg-white text-lg" href="#">بیشتر <i class='bx mt-2 text-sm bxs-down-arrow'></i></a>
+                </div>
+
+                <!-- more -->
+
+            </div>
+        </section>
+
+        <!-- plants section -->
+
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body>
+</html>
