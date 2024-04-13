@@ -42,3 +42,9 @@ body{
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
   }
+  header{
+    z-index: 2;
+  }
+.carousel-stationary{
+  z-index: 1;
+}
