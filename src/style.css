@@ -111,8 +111,218 @@ body {
   .swiper[dir="rtl"] .swiper-slide.swiper-slide-active:first-child {
     transform: translateX(-50%);
   }
-
+  
   .swiper[dir="rtl"] .swiper-slide.swiper-slide-next:nth-child(2) {
     transform: translateX(-55%);
   }
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #c4d4d4a8;
+  color: black;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+.containerr{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+.hover-for-shopping{
+  background-image: url("../img/stationary/pcc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 60vh;
+  border-radius: 5px;
+}
+.containerr:hover .overlay{
+  opacity: 1;
+}
+.containerr2{
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+.hover-for-shopping2{
+  background-image: url("../img/stationary/bj.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 40vh;
+  border-radius: 5px;
+}
+.containerr2:hover .overlay{
+  opacity: 1;
+}
+.containerr3{
+  position: relative;
+  width: 100%;
+  height: 43vh;
+}
+.hover-for-shopping3{
+  background-image: url("../img/stationary/washitape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 43vh;
+  border-radius: 5px;
+}
+.containerr3:hover .overlay{
+  opacity: 1;
+}
+.containerr4{
+  position: relative;
+  width: 100%;
+  height: 45vh;
+}
+.hover-for-shopping4{
+  background-image: url("../img/pen/kiran-ck-6rXpQzfCYlw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 45vh;
+  border-radius: 5px;
+}
+.containerr4:hover .overlay{
+  opacity: 1;
+}
+.containerr5{
+  position: relative;
+  width: 100%;
+  height: 67vh;
+}
+.hover-for-shopping5{
+  background-image: url("../img/stationary/pens.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 67vh;
+  border-radius: 5px;
+}
+.containerr5:hover .overlay{
+  opacity: 1;
+}
+.containerr6{
+  position: relative;
+  width: 100%;
+  height: 32vh;
+}
+.hover-for-shopping6{
+  background-image: url("../img/stationary/pencilcase.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 32vh;
+  border-radius: 5px;
+}
+.containerr6:hover .overlay{
+  opacity: 1;
+}
+.containerr7{
+  position: relative;
+  width: 100%;
+  height: 66vh;
+}
+.hover-for-shopping7{
+  background-image: url("../img/stationary/bujo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 66vh;
+  border-radius: 5px;
+}
+.containerr7:hover .overlay{
+  opacity: 1;
+}
+.containerr8{
+  position: relative;
+  width: 100%;
+  height: 36vh;
+}
+.hover-for-shopping8{
+  background-image: url("../img/pen/florian-klauer-DUOTbkFqvFw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 36vh;
+  border-radius: 5px;
+}
+.containerr8:hover .overlay{
+  opacity: 1;
+}
+.containerr9{
+  position: relative;
+  width: 100%;
+  height: 42vh;
+}
+.hover-for-shopping9{
+  background-image: url("../img/stationary/washiiii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 42vh;
+  border-radius: 5px;
+}
+.containerr9:hover .overlay{
+  opacity: 1;
+}
+.containerr10{
+  position: relative;
+  width: 100%;
+  height: 34vh;
+}
+.hover-for-shopping10{
+  background-image: url("../img/stationary/klim-musalimov-1r0aLUYxUH0-unsplash\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 34vh;
+  border-radius: 5px;
+}
+.containerr10:hover .overlay{
+  opacity: 1;
+}
+.containerr11{
+  position: relative;
+  width: 100%;
+  height: 79vh;
+}
+.hover-for-shopping11{
+  background-image: url("../img/pen/glen-carrie-4EQAZWrzCJc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 79vh;
+  border-radius: 5px;
+}
+.containerr11:hover .overlay{
+  opacity: 1;
+}
+.containerr12{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+}
+.hover-for-shopping12{
+  background-image: url("../img/pen/glen-carrie-4EQAZWrzCJc-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 30vh;
+  border-radius: 5px;
+}
+.containerr12:hover .overlay{
+  opacity: 1;
 }
