@@ -171,6 +171,13 @@
                   >ارتباطات</a
                 >
               </li>
+              <li>
+                <a
+                class="block py-2 px-3 md:p-0 bx-flashing rounded hover:bg-[#E9F5DB] md:hover:bg-transparent md:hover:text-[#6B705C] md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                href=""
+                >محصول خودت رو بساز!</a
+              >
+              </li>
             </ul>
           </div>
         </div>
@@ -178,21 +185,16 @@
     </header>
     <!-- header -->
     <!-- main -->
-    <main class="pt-10 md:pt-20">
+    <main>
+      <!-- swiper label -->
+      <div class="flex justify-between mx-8 pt-24">
+        <span class="mb-4 text-xl">پرفروش ترین های لوازم تحریر</span>
+        <i class="bx bx-chevron-down mt-1 text-2xl"></i>
+      </div>
+      <!-- swiper label -->
       <!-- swiper -->
-      <div class="container mx-auto my-20 md:my-8">
+      <div class="container mx-auto mb-5">
         <div class="flex flex-wrap">
-          <div class="flex items-center">
-            <span class="mb-4 text-xl">پرفروش ترین های لوازم تحریر</span>
-            <dotlottie-player
-              src="https://lottie.host/8230d500-1510-4e2a-9f87-c2f5d5c1f01d/cizaRUAC3C.json"
-              background="transparent"
-              speed="1"
-              style="width: 70px; height: 70px;"
-              loop
-              autoplay
-            ></dotlottie-player>
-          </div>
           <div class="swiper mySwiper carousel-stationary">
             <div class="swiper-wrapper gap-2">
               <!-- image num1 -->
@@ -273,6 +275,12 @@
         </div>
       </div>
       <!-- swiper -->
+      <!-- gallery label -->
+      <div class="flex justify-between mx-8">
+        <span class="mb-4 text-xl">لوازم تحریر</span>
+        <i class="bx bx-chevron-down mt-1 text-2xl"></i>
+      </div>
+      <!-- gallery label -->
       <!-- gallery -->
       <div class="container mx-auto">
         <div class="flex flex-wrap">
@@ -436,12 +444,100 @@
         </div>
       </div>
       <!-- gallery -->
+      <!-- pagination -->
+      <nav aria-label="Page navigation example">
+        <ul class="flex items-center justify-center -space-x-px h-8 text-sm mt-5">
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >
+              <span class="sr-only">Previous</span>
+              <svg
+                class="w-2.5 h-2.5 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >1</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >2</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              aria-current="page"
+              class="z-10 flex items-center justify-center px-3 h-8 leading-tight border text-gray-500 border-gray-300 bg-white hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+              >3</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >4</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+              >5</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            >
+              <span class="sr-only">Next</span>
+              <svg
+                class="w-2.5 h-2.5 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- pagination -->
     </main>
     <!-- main -->
     <!-- footer -->
     <footer class="bg-[#C4D4D4] shadow dark:bg-gray-900">
       <div
-        class="w-full max-w-screen-xl mx-auto p-4 m-10 rounded-lg bg-[#F4E7FB]"
+        class="w-full max-w-screen-xl mx-auto p-4 m-5 rounded-lg bg-[#F4E7FB]"
       >
         <div class="sm:flex sm:items-center sm:justify-between">
           <ul
