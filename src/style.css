@@ -310,21 +310,180 @@ body {
 .containerr11:hover .overlay{
   opacity: 1;
 }
-.containerr12{
+
+.containerrb{
   position: relative;
   width: 100%;
-  height: auto;
-  max-width: 100%;
+  height: 62vh;
 }
-.hover-for-shopping12{
-  background-image: url("../img/pen/glen-carrie-4EQAZWrzCJc-unsplash.jpg");
+.hover-for-shoppingb{
+  background-image: url("../img/books/best-year-yet.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position:  center;
-  height: auto;
-  border-radius: 0.5rem;
-  max-width: 100%;
+  height: 62vh;
+  border-radius: 5px;
 }
-.containerr12:hover .overlay{
+.containerrb:hover .overlay{
+  opacity: 1;
+}
+.containerr2b{
+  position: relative;
+  width: 100%;
+  height: 43vh;
+}
+.hover-for-shopping2b{
+  background-image: url("../img/books/anxiety-solution.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 43vh;
+  border-radius: 5px;
+}
+.containerr2b:hover .overlay{
+  opacity: 1;
+}
+.containerr3b{
+  position: relative;
+  width: 100%;
+  height: 43vh;
+}
+.hover-for-shopping3b{
+  background-image: url("../img/books/good-guide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 43vh;
+  border-radius: 5px;
+}
+.containerr3b:hover .overlay{
+  opacity: 1;
+}
+.containerr4b{
+  position: relative;
+  width: 100%;
+  height: 47vh;
+}
+.hover-for-shopping4b{
+  background-image: url("../img/books/how-to-not-always-be-working.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 47vh;
+  border-radius: 5px;
+}
+.containerr4b:hover .overlay{
+  opacity: 1;
+}
+.containerr5b{
+  position: relative;
+  width: 100%;
+  height: 67vh;
+}
+.hover-for-shopping5b{
+  background-image: url("../img/books/do-it-for-yourself.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 67vh;
+  border-radius: 5px;
+}
+.containerr5b:hover .overlay{
+  opacity: 1;
+}
+.containerr6b{
+  position: relative;
+  width: 100%;
+  height: 34vh;
+}
+.hover-for-shopping6b{
+  background-image: url("../img/books/one-line-a-day.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 34vh;
+  border-radius: 5px;
+}
+.containerr6b:hover .overlay{
+  opacity: 1;
+}
+.containerr7b{
+  position: relative;
+  width: 100%;
+  height: 66vh;
+}
+.hover-for-shopping7b{
+  background-image: url("../img/books/i-am-hero-of-my-own-life.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 66vh;
+  border-radius: 5px;
+}
+.containerr7b:hover .overlay{
+  opacity: 1;
+}
+.containerr8b{
+  position: relative;
+  width: 100%;
+  height: 38vh;
+}
+.hover-for-shopping8b{
+  background-image: url("../img/books/practice-you.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 38vh;
+  border-radius: 5px;
+}
+.containerr8b:hover .overlay{
+  opacity: 1;
+}
+.containerr9b{
+  position: relative;
+  width: 100%;
+  height: 44vh;
+}
+.hover-for-shopping9b{
+  background-image: url("../img/books/the-power-of-habit.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 44vh;
+  border-radius: 5px;
+}
+.containerr9b:hover .overlay{
+  opacity: 1;
+}
+.containerr10b{
+  position: relative;
+  width: 100%;
+  height: 34vh;
+}
+.hover-for-shopping10b{
+  background-image: url("../img/books/you-have-nice-ideas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 34vh;
+  border-radius: 5px;
+}
+.containerr10b:hover .overlay{
+  opacity: 1;
+}
+.containerr11b{
+  position: relative;
+  width: 100%;
+  height: 79vh;
+}
+.hover-for-shopping11b{
+  background-image: url("../img/books/what-not-to-say.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 79vh;
+  border-radius: 5px;
+}
+.containerr11b:hover .overlay{
   opacity: 1;
 }
