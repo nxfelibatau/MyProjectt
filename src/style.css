@@ -487,3 +487,179 @@ body {
 .containerr11b:hover .overlay{
   opacity: 1;
 }
+.containerrp{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+.hover-for-shoppingp{
+  background-image: url("../img/plants/anjiri.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 60vh;
+  border-radius: 5px;
+}
+.containerrp:hover .overlay{
+  opacity: 1;
+}
+.containerr2p{
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+.hover-for-shopping2p{
+  background-image: url("../img/plants/cute.copy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  height: 40vh;
+  border-radius: 5px;
+}
+.containerr2p:hover .overlay{
+  opacity: 1;
+}
+.containerr3p{
+  position: relative;
+  width: 100%;
+  height: 43vh;
+}
+.hover-for-shopping3p{
+  background-image: url("../img/plants/azoonaazoona.copy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 43vh;
+  border-radius: 5px;
+}
+.containerr3p:hover .overlay{
+  opacity: 1;
+}
+.containerr4p{
+  position: relative;
+  width: 100%;
+  height: 45vh;
+}
+.hover-for-shopping4p{
+  background-image: url("../img/plants/giah2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 45vh;
+  border-radius: 5px;
+}
+.containerr4p:hover .overlay{
+  opacity: 1;
+}
+.containerr5p{
+  position: relative;
+  width: 100%;
+  height: 67vh;
+}
+.hover-for-shopping5p{
+  background-image: url("../img/plants/giah3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 67vh;
+  border-radius: 5px;
+}
+.containerr5p:hover .overlay{
+  opacity: 1;
+}
+.containerr6p{
+  position: relative;
+  width: 100%;
+  height: 32vh;
+}
+.hover-for-shopping6p{
+  background-image: url("../img/plants/giah6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 32vh;
+  border-radius: 5px;
+}
+.containerr6p:hover .overlay{
+  opacity: 1;
+}
+.containerr7p{
+  position: relative;
+  width: 100%;
+  height: 66vh;
+}
+.hover-for-shopping7p{
+  background-image: url("../img/plants/giah4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 66vh;
+  border-radius: 5px;
+}
+.containerr7p:hover .overlay{
+  opacity: 1;
+}
+.containerr8p{
+  position: relative;
+  width: 100%;
+  height: 36vh;
+}
+.hover-for-shopping8p{
+  background-image: url("../img/plants/giah1.copy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 36vh;
+  border-radius: 5px;
+}
+.containerr8p:hover .overlay{
+  opacity: 1;
+}
+.containerr9p{
+  position: relative;
+  width: 100%;
+  height: 42vh;
+}
+.hover-for-shopping9p{
+  background-image: url("../img/plants/giah5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 42vh;
+  border-radius: 5px;
+}
+.containerr9p:hover .overlay{
+  opacity: 1;
+}
+.containerr10p{
+  position: relative;
+  width: 100%;
+  height: 34vh;
+}
+.hover-for-shopping10p{
+  background-image: url("../img/plants/giah9.copy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 34vh;
+  border-radius: 5px;
+}
+.containerr10p:hover .overlay{
+  opacity: 1;
+}
+.containerr11p{
+  position: relative;
+  width: 100%;
+  height: 79vh;
+}
+.hover-for-shopping11p{
+  background-image: url("../img/plants/giah.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center;
+  height: 79vh;
+  border-radius: 5px;
+}
+.containerr11p:hover .overlay{
+  opacity: 1;
+}
