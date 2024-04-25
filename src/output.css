@@ -859,6 +859,10 @@ video {
   width: 100%;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -995,6 +999,16 @@ video {
 .rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+}
+
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-l-md {
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
 }
 
 .border {
@@ -1267,6 +1281,39 @@ video {
   text-decoration-line: underline;
 }
 
+.focus\:mx-4:focus {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.focus\:block:focus {
+  display: block;
+}
+
+.focus\:rounded:focus {
+  border-radius: 0.25rem;
+}
+
+.focus\:rounded-r-md:focus {
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
+.focus\:bg-white:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.focus\:px-20:focus {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.focus\:px-4:focus {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1301,6 +1348,16 @@ video {
 .focus\:ring-blue-300:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(147 197 253 / var(--tw-ring-opacity));
+}
+
+.active\:bg-white:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.active\:px-20:active {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .active\:text-\[\#E9F5DB\]:active {
