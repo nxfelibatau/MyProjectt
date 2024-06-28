@@ -663,3 +663,17 @@ body {
 .containerr11p:hover .overlay{
   opacity: 1;
 }
+.bg-toDo{
+  background-image: url("../img/jungle.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.btn-green{
+  background: #2d4f1ebf;
+}
+.btn-brown{
+  background: #7c3303a8;
+}
