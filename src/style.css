@@ -677,3 +677,12 @@ body {
 .btn-brown{
   background: #7c3303a8;
 }
+.alert-temp {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1050;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  width: 100%;
+}
