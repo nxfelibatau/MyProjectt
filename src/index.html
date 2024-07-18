@@ -18,7 +18,7 @@
   </head>
   <body class="bg-[#C4D4D4]">
     <!-- header -->
-
+    <div id="alert-container" class="fixed top-5 right-5 z-50"></div>
     <header class="shadow-md fixed w-full">
       <nav class="bg-[#C4D4D4]">
         <div
@@ -362,7 +362,11 @@
                 >گیاه</a
               >
             </div>
-          </div>
+            <section class="flex justify-center items-center">
+              <!-- <h2>My DateTime <i class="bi bi-hourglass-split"></i></h2> -->
+              <h2 id="clock" class="rounded px-3"></h2>
+              <h2 id="shamsiDate" class="rounded px-2"></h2>
+          </section>          </div>
         </div>
       </section>
 
@@ -937,13 +941,14 @@
     </footer>
 
     <!-- footer -->
-
+    <script src="./shamsiDate.js"></script>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="./OfflineOnline.js"></script>
+    <script src="./main.js"></script>
     <script src="../main.js"></script>
   </body>
 </html>

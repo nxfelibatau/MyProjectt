@@ -95,3 +95,24 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+function myDateTime() {
+    let clock = document.querySelector("#clock");
+    let shamsiDate = document.querySelector("#shamsiDate");
+    let date = new Date();
+
+    // Update the clock
+    let hours = String(date.getHours()).padStart(2, '0');
+    let minutes = String(date.getMinutes()).padStart(2, '0');
+    let seconds = String(date.getSeconds()).padStart(2, '0');
+    clock.textContent = `${hours}:${minutes}:${seconds}`;
+
+    // Update the Shamsi date
+    let jy = date.getFullYear();
+    let jm = date.getMonth() + 1; // JavaScript months are 0-11
+    let jd = date.getDate();
+    let jalaliDate = gregorian_to_jalali(jy, jm, jd);
+    shamsiDate.textContent = `${jalaliDate[0]}/${jalaliDate[1]}/${jalaliDate[2]}`;
+}
+
+myDateTime();
+setInterval(myDateTime, 1000);
