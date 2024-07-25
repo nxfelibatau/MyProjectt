@@ -13,5 +13,5 @@ function showAlert(message, type) {
 }
 
 // Event listeners for online and offline
-window.addEventListener('online', () => showAlert('You are online', 'online'));
-window.addEventListener('offline', () => showAlert('You are offline', 'offline'));
+window.addEventListener('online', () => showAlert('آنلاین', 'online'));
+window.addEventListener('offline', () => showAlert('آفلاین', 'offline'));

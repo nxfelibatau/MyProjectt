@@ -19,8 +19,8 @@
   </head>
   <body class="bg-[#C4D4D4]">
     <!-- header -->
-    <div id="alert-container" class="fixed top-5 right-5 z-50"></div>
     <header class="shadow-md fixed w-full">
+      <div id="alert-container" class="fixed top-5 right-5 z-50"></div>
       <nav class="bg-[#C4D4D4]">
         <div
           class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -191,9 +191,10 @@
             <!-- search button -->
             <button
               type="button"
-              class="text-xl pr-4 flex justify-center items-center text-gray-500 active:text-[#E9F5DB]"
+              class="text-xl pr-4 flex justify-center items-center text-gray-500 search-container active:text-[#E9F5DB]"
             >
-              <span class="lets-icons--search-alt"></span>
+              <span class="lets-icons--search-alt search-icon text-2xl" id="search-icon"></span>
+              <input type="text" id="search-input" class="search-input" placeholder="جستجو کنید">
             </button>
             <!-- search button -->
             <!-- hamburgur menu icon-->

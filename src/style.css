@@ -686,3 +686,24 @@ body {
   transition: opacity 1s ease-in-out;
   width: 100%;
 }
+.search-container{
+  position: relative;
+  display: inline-block;
+}
+/* .search-icon{
+  cursor: pointer;
+  font-size: 24px;
+  padding: 2px;
+} */
+.search-input{
+  display: none;
+  width: 200px;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 5px;
+  outline: none;
+}
+.search-input.active{
+  display: inline-block;
+}

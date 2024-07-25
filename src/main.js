@@ -116,3 +116,10 @@ function myDateTime() {
 
 myDateTime();
 setInterval(myDateTime, 1000);
+document.getElementById("search-icon").addEventListener("click",function(){
+    let searchInput=document.getElementById("search-input");
+    searchInput.classList.toggle("active");
+    if(searchInput.classList.contains("active")) {
+        searchInput.focus();
+    }
+});
