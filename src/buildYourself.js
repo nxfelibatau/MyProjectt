@@ -1,17 +1,25 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const themes = document.querySelector('.themes');
-    let selectedTheme = localStorage.getItem('theme') || 'yellow';
+const root = document.documentElement;
+const btnWildMode = document.getElementById("wild-mode");
 
-    // Apply the stored or default theme
-    document.getElementById('notebook').className = `w-72 h-96 bg-${selectedTheme}-500 border-2 border-gray-300 mb-6`;
+function resetPropertyValues() {
+  root.style.setProperty("--x", 0);
+  root.style.setProperty("--y", 0);
+}
 
-    Array.from(themes.children).forEach((theme) => {
-        theme.addEventListener('click', (e) => {
-            let color = e.target.dataset.color;
-
-            // Update notebook background color
-            document.getElementById('notebook').className = `w-72 h-96 bg-${color}-500 border-2 border-gray-300 mb-6`;
-            localStorage.setItem('theme', color);
-        });
-    });
+Observer.create({
+  preventDefault: true,
+  onChangeX({ isDragging, deltaX }) {
+    if (!isDragging) return;
+    const x = root.style.getPropertyValue("--x");
+    root.style.setProperty("--x", parseInt(x) - deltaX);
+  },
+  onChangeY({ isDragging, deltaY }) {
+    if (!isDragging) return;
+    const y = root.style.getPropertyValue("--y");
+    root.style.setProperty("--y", parseInt(y) + deltaY);
+  }
 });
+
+btnWildMode.addEventListener("click", () => resetPropertyValues());
+
+resetPropertyValues();
