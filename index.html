@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>فروشگاه الف</title>
-    <link rel="shortcut icon" href="../img/elf-logo-zip-file (1)/png/logo-no-background.png" type="image/x-icon">
-    <link rel="stylesheet" href="./output.css" />
-    <link rel="stylesheet" href="../tailwind.config.js" />
+    <link
+      rel="shortcut icon"
+      href="./img/elf-logo-zip-file (1)/png/logo-no-background.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./tailwind.config.js" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -15,7 +19,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body class="bg-[#C4D4D4]">
     <!-- header -->
@@ -31,7 +35,7 @@
             class="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="../img/elf-logo-zip-file (2)/png/logo-no-background.png"
+              src="./img/elf-logo-zip-file (2)/png/logo-no-background.png"
               class="h-12"
               alt="ELF Logo"
             />
@@ -44,7 +48,7 @@
             <div class="flex gap-3">
               <a
                 class="text-white bg-[#335334] hover:bg-[#718355] focus:ring-4 focus:outline-none focus:ring-[#E9F5DB] font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                href="./toDoList.html"
+                href="./src/toDoList.html"
               >
                 to do list
               </a>
@@ -193,8 +197,16 @@
               type="button"
               class="text-xl pr-4 flex justify-center items-center text-gray-500 search-container active:text-[#E9F5DB]"
             >
-              <span class="lets-icons--search-alt search-icon text-2xl" id="search-icon"></span>
-              <input type="text" id="search-input" class="search-input" placeholder="جستجو کنید">
+              <span
+                class="lets-icons--search-alt search-icon text-2xl"
+                id="search-icon"
+              ></span>
+              <input
+                type="text"
+                id="search-input"
+                class="search-input"
+                placeholder="جستجو کنید"
+              />
             </button>
             <!-- search button -->
             <!-- hamburgur menu icon-->
@@ -277,21 +289,21 @@
                 >
                   <li>
                     <a
-                      href="./staitionary.html"
+                      href="./src/staitionary.html"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >لوازم التحریر</a
                     >
                   </li>
                   <li>
                     <a
-                      href="./books.html"
+                      href="./src/books.html"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >کتاب ها</a
                     >
                   </li>
                   <li>
                     <a
-                      href="./plants.html"
+                      href="./src/plants.html"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >گیاه ها</a
                     >
@@ -345,22 +357,22 @@
             <div class="flex gap-2">
               <a
                 class="text-xs md:text-lg bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white"
-                href="./buildYourself.html"
+                href="./src/buildYourself.html"
                 >محصول خودت رو بساز!</a
               >
               <a
                 class="text-sm md:text-lg bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white"
-                href="./books.html"
+                href="./src/books.html"
                 >کتاب ها</a
               >
               <a
                 class="text-sm md:text-lg bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white"
-                href="./staitionary.html"
+                href="./src/staitionary.html"
                 >لوازم تحریر</a
               >
               <a
                 class="text-sm md:text-lg bg-[#335334] hover:bg-[#718355] py-2 px-2 rounded-md text-white"
-                href="./plants.html"
+                href="./src/plants.html"
                 >گیاه</a
               >
             </div>
@@ -368,7 +380,8 @@
               <!-- <h2>My DateTime <i class="bi bi-hourglass-split"></i></h2> -->
               <h2 id="clock" class="rounded px-3"></h2>
               <h2 id="shamsiDate" class="rounded px-2"></h2>
-          </section>          </div>
+            </section>
+          </div>
         </div>
       </section>
 
@@ -404,7 +417,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/stationary/bj.jpg"
+                    src="./img/stationary/bj.jpg"
                     class="w-64 rounded-xl hover:w-72"
                     alt=""
                 /></a>
@@ -430,7 +443,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/stationary/pens.jpg"
+                    src="./img/stationary/pens.jpg"
                     class="w-64 h-44 mt-2 rounded-xl hover:w-72"
                     alt=""
                 /></a>
@@ -456,7 +469,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/stationary/washitape.jpg"
+                    src="./img/stationary/washitape.jpg"
                     class="w-64 h-44 rounded-xl hover:w-72"
                     alt=""
                 /></a>
@@ -482,7 +495,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/stationary/pcc.jpg"
+                    src="./img/stationary/pcc.jpg"
                     class="w-60 h-44 rounded-xl hover:w-72"
                     alt=""
                 /></a>
@@ -508,7 +521,7 @@
           <div class="flex justify-center">
             <a
               class="w-[75%] flex justify-center shadow-lg mt-3 mb-3 hover:text-xl rounded-xl bg-white text-lg"
-              href="./staitionary.html"
+              href="./src/staitionary.html"
               >بیشتر <i class="bx mt-2 text-sm bxs-down-arrow"></i
             ></a>
           </div>
@@ -549,7 +562,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/books/good-guide.jpg"
+                    src="./img/books/good-guide.jpg"
                     class="w-64 h-52 rounded-lg hover:w-72"
                     alt=""
                 /></a>
@@ -575,7 +588,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/books/how-to-not-always-be-working.jpg"
+                    src="./img/books/how-to-not-always-be-working.jpg"
                     class="w-64 h-52 mt-2 rounded-lg hover:w-72"
                     alt=""
                 /></a>
@@ -601,7 +614,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/books/i-am-hero-of-my-own-life.jpg"
+                    src="./img/books/i-am-hero-of-my-own-life.jpg"
                     class="w-64 h-52 hover:w-72 mt-1 rounded-lg"
                     alt=""
                 /></a>
@@ -627,7 +640,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/books/the-power-of-habit.jpg"
+                    src="./img/books/the-power-of-habit.jpg"
                     class="w-60 rounded-lg hover:w-72"
                     alt=""
                 /></a>
@@ -653,7 +666,7 @@
           <div class="flex justify-center">
             <a
               class="w-[75%] flex justify-center shadow-lg mt-3 mb-3 hover:text-xl rounded-xl bg-white text-lg"
-              href="./books.html"
+              href="./src/books.html"
               >بیشتر <i class="bx mt-2 text-sm bxs-down-arrow"></i
             ></a>
           </div>
@@ -694,7 +707,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/plants/aloevera.jpg"
+                    src="./img/plants/aloevera.jpg"
                     class="w-64 h-52 rounded-lg hover:w-72"
                     alt=""
                 /></a>
@@ -720,7 +733,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/plants/anjiri.jpg"
+                    src="./img/plants/anjiri.jpg"
                     class="w-64 h-52 mt-2 rounded-lg hover:w-72"
                     alt=""
                 /></a>
@@ -746,7 +759,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/plants/azoonaazoona.jpg"
+                    src="./img/plants/azoonaazoona.jpg"
                     class="w-64 h-52 rounded-lg hover:w-72"
                     alt=""
                 /></a>
@@ -772,7 +785,7 @@
               <div class="flex flex-col items-center">
                 <a href="#"
                   ><img
-                    src="../img/plants/cute.jpg"
+                    src="./img/plants/cute.jpg"
                     class="w-60 h-52 rounded-lg hover:w-72"
                     alt=""
                 /></a>
@@ -798,7 +811,7 @@
           <div class="flex justify-center">
             <a
               class="w-[75%] flex justify-center shadow-lg mt-3 mb-3 hover:text-xl rounded-xl bg-white text-lg"
-              href="./plants.html"
+              href="./src/plants.html"
               >بیشتر <i class="bx mt-2 text-sm bxs-down-arrow"></i
             ></a>
           </div>
@@ -840,7 +853,7 @@
             class="flex flex-col items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="../img/elf-logo-zip-file (2)/png/logo-no-background.png"
+              src="./img/elf-logo-zip-file (2)/png/logo-no-background.png"
               class="h-16"
               alt="ELF Logo"
             />
@@ -943,14 +956,14 @@
     </footer>
 
     <!-- footer -->
-    <script src="./shamsiDate.js"></script>
+    <script src="./src/shamsiDate.js"></script>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-    <script src="./OfflineOnline.js"></script>
+    <script src="./src/OfflineOnline.js"></script>
+    <script src="./src/main.js"></script>
     <script src="./main.js"></script>
-    <script src="../main.js"></script>
   </body>
 </html>
